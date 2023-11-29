@@ -17,7 +17,6 @@ public class LifeCostService {
     private final CategoryFeign client;
 
 
-
     public Long registerCost(LifeCostDto lifeCostDto){
 
        lifeCostDto.setIdCategory(client.buscarPorId(lifeCostDto.getDescription()));

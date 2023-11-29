@@ -8,7 +8,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableFeignClients
-@ComponentScan(basePackages = "com.meva.finance")
 public class CostApplication {
 
 	public static void main(String[] args) {
